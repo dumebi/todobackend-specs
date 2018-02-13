@@ -1,0 +1,30 @@
+{
+  "name": "todobackend-specs",
+  "version": "1.0.0",
+  "description": "Todobackend acceptance tests",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumebi/todobackend-specs.git"
+  },
+  "keywords": [
+    "todobackend"
+  ],
+  "author": "Jude Dike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumebi/todobackend-specs/issues"
+  },
+  "homepage": "https://github.com/dumebi/todobackend-specs#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha-jenkins-reporter": "^0.3.10",
+    "superagent": "^3.8.2",
+    "superagent-promise": "^1.1.0"
+  }
+}
